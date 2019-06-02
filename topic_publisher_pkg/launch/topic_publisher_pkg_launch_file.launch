@@ -1,0 +1,6 @@
+<launch>
+  <!-- my_package launch file-->
+  <node pkg="topic_publisher_pkg" type="simple_topic_publisher_node" name="firstPublisher_node"  output="screen">
+  </node>
+</launch>
+

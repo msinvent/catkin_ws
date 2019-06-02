@@ -1,0 +1,6 @@
+<launch>
+  <!-- my_package launch file-->
+  <node pkg="classy" type="classy_node" name="classy_node"  output="screen">
+  </node>
+</launch>
+
