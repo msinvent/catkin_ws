@@ -1,0 +1,6 @@
+<launch>
+  <!-- my_package launch file-->
+  <node pkg="topics_quiz" type="topics_quiz_node" name="topics_quiz_node"  output="screen">
+  </node>
+</launch>
+
