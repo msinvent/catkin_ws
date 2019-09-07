@@ -3,8 +3,8 @@
 
 int main(int argc, char **argv) {
 
-  ros::init(argc, argv, "topic_publisher");
-  ros::NodeHandle nh;
+  ros::init(argc, argv, "topic_publisher"); // telling name of the rosnode
+  ros::NodeHandle nh; // Declares it as a node
 
   ros::Publisher pub = nh.advertise<std_msgs::Int32>("counter", 1000);
   ros::Rate loop_rate(2);
